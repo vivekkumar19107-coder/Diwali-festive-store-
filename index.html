@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diwali Festive Store 🪔</title>
+  <meta name="description" content="Diwali Festive Store - gifts, lights, decor and festive shopping.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="brand">🪔 Diwali Festive Store</div>
+      <a href="#products" class="nav-btn">Shop Now</a>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">✨ FESTIVE COLLECTION 2026 ✨</p>
+      <h1>रोशन करें अपनी दिवाली</h1>
+      <p>Beautiful gifts, lights & festive decor — सब कुछ एक जगह।</p>
+      <a class="cta" href="#products">खरीदारी शुरू करें →</a>
+    </div>
+  </header>
+
+  <section class="features">
+    <div>🚚 <b>Fast Delivery</b><span>पूरे भारत में</span></div>
+    <div>🎁 <b>Festive Gifts</b><span>खास आपके लिए</span></div>
+    <div>💳 <b>Easy Payment</b><span>सुरक्षित भुगतान</span></div>
+  </section>
+
+  <main id="products">
+    <div class="section-head">
+      <p class="eyebrow">OUR COLLECTION</p>
+      <h2>दिवाली के खास प्रोडक्ट्स</h2>
+    </div>
+    <div class="products">
+      <article class="card">
+        <div class="product-art diyas">🪔</div>
+        <h3>Designer Diya Set</h3>
+        <p>सुंदर सजावटी दीये</p>
+        <strong>₹199</strong>
+        <button onclick="addToCart('Designer Diya Set',199)">Add to Cart</button>
+      </article>
+      <article class="card">
+        <div class="product-art lights">💡</div>
+        <h3>Festive String Lights</h3>
+        <p>घर को दें शानदार रोशनी</p>
+        <strong>₹299</strong>
+        <button onclick="addToCart('Festive String Lights',299)">Add to Cart</button>
+      </article>
+      <article class="card">
+        <div class="product-art gift">🎁</div>
+        <h3>Diwali Gift Box</h3>
+        <p>अपनों के लिए प्यारा उपहार</p>
+        <strong>₹499</strong>
+        <button onclick="addToCart('Diwali Gift Box',499)">Add to Cart</button>
+      </article>
+      <article class="card">
+        <div class="product-art rangoli">🌸</div>
+        <h3>Rangoli Decor Kit</h3>
+        <p>रंगोली के लिए पूरा किट</p>
+        <strong>₹249</strong>
+        <button onclick="addToCart('Rangoli Decor Kit',249)">Add to Cart</button>
+      </article>
+    </div>
+  </main>
+
+  <section class="offer">
+    <p class="eyebrow">SPECIAL FESTIVE OFFER</p>
+    <h2>दिवाली पर 20% तक की बचत 🎉</h2>
+    <p>आज ही अपना पसंदीदा festive collection चुनें।</p>
+    <a class="cta" href="#products">Explore Collection</a>
+  </section>
+
+  <footer>
+    <div>🪔 <b>Diwali Festive Store</b></div>
+    <p>Made with ❤️ for the festive season.</p>
+    <small>© 2026 Diwali Festive Store</small>
+  </footer>
+
+  <div id="cart" class="cart">🛒 Cart: <span id="cartCount">0</span> | ₹<span id="cartTotal">0</span></div>
+  <script src="script.js"></script>
+</body>
+</html>
